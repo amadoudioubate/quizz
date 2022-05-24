@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="quiz">
+        <h1 class="quiz_title">Quiz culture générale !</h1>
+        <form class="quiz_form">
+
+            <!-- Empereur -->
+            <div class="form_question">
+                <h4 class="question_title">Qui est l'empereur de France le 2 décembre 1804 ?</h4>
+                <div class="question_group">
+                    <input type="radio" name="q1" id="clovis" value="a" checked>
+                    <label for="clovis">Clovis</label>
+                </div>
+
+                <div class="question_group">
+                    <input type="radio" name="q1" id="lincoln" value="b">
+                    <label for="lincoln">Abraham Lincoln</label>
+                </div>
+
+                <div class="question_group">
+                    <input type="radio" name="q1" id="bonaparte" value="c">
+                    <label for="bonaparte">Napoleon Bonaparte</label>
+                </div>
+                
+            </div>
+            <!-- Fin Empereur -->
+
+            <!-- Etats-Unis -->
+            <div class="form_question">
+                <h4 class="question_title">Quelle est la date d'indépendance des Etats-Unis ?</h4>
+                <div class="question_group">
+                    <input type="radio" name="q2" id="juillet" value="a" checked>
+                    <label for="juillet">4 juillet 1776</label>
+                </div>
+
+                <div class="question_group">
+                    <input type="radio" name="q2" id="avril" value="b">
+                    <label for="avril">18 avril 1859</label>
+                </div>
+
+                <div class="question_group">
+                    <input type="radio" name="q2" id="juin" value="c">
+                    <label for="juin">30 juin 1925</label>
+                </div>   
+            </div>
+            <!-- Fin Etats-Unis -->
+
+            <!-- Empire Romain -->
+            <div class="form_question">
+                <h4 class="question_title">La chute de l'empire Romain se situe ?</h4>
+                <div class="question_group">
+                    <input type="radio" name="q3" id="jc15" value="a" checked>
+                    <label for="jc15">15 ap. J.-C</label>
+                </div>
+
+                <div class="question_group">
+                    <input type="radio" name="q3" id="jc395" value="b">
+                    <label for="jc395">395 ap. J.-C</label>
+                </div>
+
+                <div class="question_group">
+                    <input type="radio" name="q3" id="jc740" value="c">
+                    <label for="jc740">-740 av. J.-C</label>
+                </div>
+                
+            </div>
+            <!-- Fin Empire Romain -->
+            
+            <!-- Slovénie -->
+            <div class="form_question">
+                <h4 class="question_title">Quelle est la capitale de la Slovénie ?</h4>
+                <div class="question_group">
+                    <input type="radio" name="q4" id="ljubljana" value="a" checked>
+                    <label for="ljubljana">Ljubljana</label>
+                </div>
+
+                <div class="question_group">
+                    <input type="radio" name="q4" id="belgrade" value="b">
+                    <label for="belgrade">Belgrade</label>
+                </div>
+
+                <div class="question_group">
+                    <input type="radio" name="q4" id="bratislava" value="c">
+                    <label for="bratislava">Bratislava</label>
+                </div>
+                
+            </div>
+            <!-- Fin Slovénie -->
+
+            <!-- Irlande -->
+            <div class="form_question">
+                <h4 class="question_title">Combien d'habitants compte l'Irlande en 2020 ?</h4>
+                <div class="question_group">
+                    <input type="radio" name="q5" id="m1" value="a" checked>
+                    <label for="m1">1,365 millions</label>
+                </div>
+
+                <div class="question_group">
+                    <input type="radio" name="q5" id="m2" value="b">
+                    <label for="m2">21 millions</label>
+                </div>
+
+                <div class="question_group">
+                    <input type="radio" name="q5" id="m3" value="c">
+                    <label for="m3">4,9 millions</label>
+                </div>
+                
+            </div>
+            <!-- Fin Irlande -->
+            
+            <button type="submit" class="btn_choix">Validez vos choix !</button>
+               
+        </form>
+
+        <div class="quiz_res">
+            <h2>Cliquez sur valider pour voir les résultats.</h2>
+            <p class="aide"></p>
+            <p class="note"></p>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
